@@ -1,8 +1,8 @@
 # Jhan Freelance - Portfolio Web
 
-Landing page profesional para la marca personal **Jhan Freelance**, enfocada en desarrollo web, automatización, dashboards, asistentes inteligentes y herramientas internas para negocios, profesionales independientes y sector público.
+Landing page profesional para la marca personal **Jhan Freelance**, enfocada en desarrollo web, automatizacion, dashboards, asistentes inteligentes y herramientas internas para negocios, profesionales independientes y sector publico.
 
-El proyecto presenta servicios de forma clara y honesta: sin métricas inventadas, sin testimonios ficticios y sin promesas exageradas. La prioridad es mostrar qué se construye, con qué tecnologías y cómo iniciar una conversación directa.
+El proyecto presenta servicios de forma clara y honesta: sin metricas inventadas, sin testimonios ficticios y sin promesas exageradas. La prioridad es mostrar que se construye, con que tecnologias y como iniciar una conversacion directa.
 
 ## Vista Previa
 
@@ -16,19 +16,57 @@ El proyecto presenta servicios de forma clara y honesta: sin métricas inventada
 ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Motion](https://img.shields.io/badge/Motion-Animations-8B5CF6?style=flat-square)
 
-## Características
+## Que Comunica El Sitio
 
-- Hero oscuro con fondo visual, navegación superior y CTAs claros.
-- Sección "Sobre mí" con enfoque técnico y visual referencial.
-- Soluciones: landing pages, SaaS internos, chatbots, automatización, dashboards y plataformas web a medida.
-- Stack tecnológico agrupado por lenguajes, frameworks y herramientas.
-- Proyectos destacados con imágenes referenciales reales, tecnologías y modal de detalle.
-- Sección "Para quién trabajo" con tarjetas diferenciadas por color.
+- Desarrollo de sitios web modernos y claros.
+- Automatizacion de procesos para ahorrar tiempo operativo.
+- Dashboards para visualizar informacion importante.
+- Asistentes inteligentes y chatbots conectados a flujos reales.
+- Herramientas internas para negocios, equipos e instituciones.
+- Contacto directo para evaluar ideas, alcances y presupuestos.
+
+## Caracteristicas
+
+- Hero oscuro con fondo visual, navegacion superior y CTAs claros.
+- Seccion "Sobre mi" con enfoque tecnico y visual referencial.
+- Soluciones para landing pages, SaaS internos, chatbots, automatizacion, dashboards y plataformas web a medida.
+- Stack tecnologico agrupado por lenguajes, frameworks y herramientas.
+- Proyectos destacados con imagenes referenciales reales, tecnologias y modal de detalle.
+- Seccion "Para quien trabajo" con tarjetas diferenciadas por color.
 - Proceso de trabajo interactivo paso a paso, con subtareas, progreso y transiciones.
-- Formulario de contacto, datos visibles y botón flotante de WhatsApp.
-- Diseño responsive con microinteracciones y animaciones suaves al hacer scroll.
+- Formulario de contacto, datos visibles y boton flotante de WhatsApp.
+- Diseno responsive con microinteracciones y animaciones suaves al hacer scroll.
 
-## Tecnologías
+## Servicios Presentados
+
+**Sitios y presencia digital**
+
+- Landing pages profesionales.
+- Portfolios personales.
+- Paginas de servicios.
+- Sitios institucionales.
+
+**Herramientas internas**
+
+- Paneles administrativos.
+- Sistemas de gestion.
+- Plataformas privadas para equipos.
+- Formularios y flujos operativos.
+
+**Automatizacion e inteligencia**
+
+- Chatbots para atencion inicial.
+- Asistentes inteligentes.
+- Automatizacion de tareas repetitivas.
+- Integraciones con formularios, hojas de calculo o APIs.
+
+**Datos y visualizacion**
+
+- Dashboards de indicadores.
+- Reportes visuales.
+- Tableros para seguimiento de procesos.
+
+## Tecnologias
 
 **Frontend**
 
@@ -41,24 +79,24 @@ El proyecto presenta servicios de forma clara y honesta: sin métricas inventada
 
 **UI y experiencia**
 
-- Componentes reutilizables
-- Secciones alternadas entre fondos oscuros y claros
-- Cards con hover, modales y stepper interactivo
-- Logos tecnológicos personalizados
-- Animaciones discretas en scroll
+- Componentes reutilizables.
+- Secciones alternadas entre fondos oscuros y claros.
+- Cards con hover, modales y stepper interactivo.
+- Logos tecnologicos personalizados.
+- Animaciones discretas en scroll.
 
 **Formulario y contacto**
 
-- React Hook Form
-- WhatsApp directo con mensaje prellenado
-- Enlaces a email, LinkedIn y GitHub
+- React Hook Form.
+- WhatsApp directo con mensaje prellenado.
+- Enlaces a email, LinkedIn y GitHub.
 
 ## Estructura Del Proyecto
 
 ```txt
 /
 |-- public/
-|   `-- images/                 # Imágenes referenciales usadas en proyectos y secciones
+|   `-- images/                 # Imagenes referenciales usadas en proyectos y secciones
 |-- src/
 |   |-- app/
 |   |   |-- components/          # Secciones y componentes reutilizables
@@ -73,7 +111,7 @@ El proyecto presenta servicios de forma clara y honesta: sin métricas inventada
 |   |   |   |-- Contact.tsx
 |   |   |   `-- Footer.tsx
 |   |   |-- data/
-|   |   |   |-- content.ts       # Textos, tecnologías, proyectos y datos de contacto
+|   |   |   |-- content.ts       # Textos, tecnologias, proyectos y datos de contacto
 |   |   |   `-- types.ts
 |   |   |-- utils/
 |   |   |   `-- whatsapp.ts
@@ -91,60 +129,23 @@ El proyecto presenta servicios de forma clara y honesta: sin métricas inventada
 `-- vite.config.ts
 ```
 
-## Instalación
+## Personalizacion Del Contenido
 
-Requisitos:
-
-- Node.js 18 o superior
-- npm
-
-```bash
-npm install
-```
-
-## Ejecutar En Desarrollo
-
-```bash
-npm run dev
-```
-
-Luego abre el navegador en:
-
-```txt
-http://localhost:5173
-```
-
-Si Vite usa otro puerto, revisa la URL que aparece en la terminal.
-
-## Construir Para Producción
-
-```bash
-npm run build
-```
-
-La versión optimizada se genera en:
-
-```txt
-dist/
-```
-
-## Personalización Rápida
-
-La mayor parte del contenido editable está en:
+La mayor parte del contenido editable esta en:
 
 ```txt
 src/app/data/content.ts
 ```
 
-Desde ahí puedes cambiar:
+Desde ahi se pueden actualizar:
 
 - Datos de contacto.
-- Número de WhatsApp.
+- Numero de WhatsApp.
 - LinkedIn y GitHub.
 - Soluciones ofrecidas.
-- Tecnologías del stack.
+- Tecnologias del stack.
 - Proyectos destacados.
-- Públicos objetivo.
+- Publicos objetivo.
 - Tipos de proyecto del formulario.
 
 ## Contacto Configurado
@@ -154,22 +155,6 @@ Desde ahí puedes cambiar:
 - LinkedIn: [Jhan Dev](https://www.linkedin.com/in/jhandev07/)
 - GitHub: [Angie2-CuentaTrabajo](https://github.com/Angie2-CuentaTrabajo)
 
-## Despliegue Sugerido
-
-Este proyecto puede desplegarse en Vercel, Netlify o cualquier hosting estático.
-
-Para Vercel:
-
-```bash
-npm run build
-```
-
-Configura:
-
-- Framework preset: `Vite`
-- Build command: `npm run build`
-- Output directory: `dist`
-
 ## Estado
 
-Proyecto en desarrollo visual, preparado para seguir ajustando contenido personal, proyectos reales y capturas finales.
+Proyecto en desarrollo visual, preparado para seguir ajustando contenido personal, proyectos reales, capturas finales y detalles de marca.
