@@ -237,7 +237,7 @@ export const contactInfo = {
   whatsappMessage: 'Hola Jhan, me gustaria conversar sobre un proyecto digital.',
   location: 'Perú / remoto',
   github: 'https://github.com/Angie2-CuentaTrabajo',
-  linkedin: 'https://www.linkedin.com/in/jhan-perez-a7a63a29a/'
+  linkedin: 'https://www.linkedin.com/in/jhandev07/'
 };
 
 export const projectTypes = [
