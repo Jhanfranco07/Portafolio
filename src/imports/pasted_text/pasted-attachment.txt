@@ -1,0 +1,180 @@
+Actúa como arquitecto front-end senior y diseñador UX/UI. Genera el diseño y la estructura de una web portfolio profesional en Next.js (App Router) con Tailwind CSS para mi marca personal: "Jhan Freelance".
+
+OBJETIVO:
+Crear una landing page moderna, limpia y profesional para mostrar lo que hago como desarrollador freelance, destacar mis proyectos, mi stack tecnológico y facilitar el contacto por WhatsApp o formulario.
+
+ENFOQUE:
+No quiero una web estilo agencia grande ni una página inflada con métricas falsas. Quiero una web honesta, moderna y sólida, centrada en:
+- lo que construyo
+- las tecnologías que uso
+- los tipos de soluciones que desarrollo
+- algunos proyectos destacados
+- contacto claro y directo
+
+ESTILO VISUAL:
+- moderno
+- limpio
+- profesional
+- minimalista pero con personalidad
+- estética SaaS / portfolio tech
+- animaciones suaves y discretas
+- responsive
+- buena jerarquía visual
+- tarjetas elegantes
+- íconos y logos tecnológicos bien integrados
+- paleta tecnológica en tonos azul, violeta, blanco y grises suaves
+- sensación de confianza, claridad y capacidad técnica
+
+STACK:
+- Next.js (App Router)
+- Tailwind CSS
+- Componentes reutilizables
+- framer-motion opcional solo para microanimaciones suaves
+- Diseño preparado para implementación real
+
+ESTRUCTURA DE LA WEB:
+1. Navbar
+   - Logo / nombre: Jhan Freelance
+   - Menú: Inicio, Sobre mí, Soluciones, Tecnologías, Proyectos, Contacto
+   - Botón CTA: “Hablemos” o “Escríbeme”
+
+2. Hero
+   - Título potente orientado a resultados
+   - Subtítulo profesional
+   - CTA principal a WhatsApp
+   - CTA secundario para ver proyectos
+   - Imagen o mockup moderno relacionado a desarrollo web, automatización, IA o dashboards
+   - No usar frases exageradas o irreales
+
+3. Sección “Sobre mí”
+   - Breve presentación personal/profesional
+   - Enfoque en desarrollo de soluciones digitales, automatización, apps web, asistentes inteligentes y herramientas para negocios o sector público
+   - Tono profesional y cercano
+
+4. Sección “Qué construyo” o “Soluciones”
+   Mostrar tarjetas con estas soluciones:
+   - Landing pages y webs corporativas
+   - Sistemas de gestión empresarial tipo SaaS
+   - Chatbots y asistentes inteligentes para negocios
+   - Automatización de procesos y documentos
+   - Dashboards y visualización de datos
+   - Plataformas web a medida
+
+5. Sección “Tecnologías”
+   Separar visualmente en 3 bloques:
+   - Lenguajes
+   - Frameworks / librerías
+   - Herramientas / plataformas
+
+   Ejemplo de contenido:
+   Lenguajes:
+   - Python
+   - TypeScript
+   - JavaScript
+   - HTML
+   - CSS
+   - SQL
+
+   Frameworks / librerías:
+   - Next.js
+   - React
+   - Tailwind CSS
+   - Node.js
+   - Express
+   - Prisma
+   - scikit-learn
+
+   Herramientas / plataformas:
+   - Figma
+   - GitHub
+   - Vercel
+   - Neon
+   - PostgreSQL
+   - Supabase
+   - n8n
+   - Streamlit
+   - Google Sheets API
+   - Postman
+
+   IMPORTANTE:
+   - usar íconos o logos visuales por cada tecnología
+   - no solo chips de texto
+   - diseño limpio y bien agrupado
+   - que se vea técnico y moderno
+
+6. Sección “Proyectos destacados”
+   Tarjetas de proyectos más realistas y alineados a mi perfil:
+   - Portafolio profesional freelancer
+   - Sistema de gestión empresarial tipo SaaS
+   - Chatbot inteligente para atención o consultas
+   - Dashboard de análisis y reportes
+   - Plataforma de automatización documental
+   - Sistema web para procesos o trámites
+
+   Cada card debe incluir:
+   - nombre del proyecto
+   - breve descripción
+   - tecnologías utilizadas
+   - categoría
+   - botón “Ver más”
+   - opción de modal o detalle expandible
+
+   IMPORTANTE:
+   evitar ejemplos poco alineados como delivery o apps demasiado ajenas a mi perfil.
+
+7. Sección “Para quién trabajo”
+   Un bloque corto con tarjetas o texto para mostrar que puedo construir soluciones para:
+   - emprendimientos
+   - negocios
+   - profesionales independientes
+   - sector público
+   - proyectos internos de gestión
+
+8. Sección “Proceso de trabajo”
+   Un proceso simple y profesional:
+   - Descubrimiento
+   - Propuesta
+   - Diseño / estructura
+   - Desarrollo
+   - Entrega y mejoras
+
+9. Sección CTA final
+   - mensaje potente y claro
+   - botón a WhatsApp
+   - botón para ir al formulario
+
+10. Sección Contacto
+   - formulario visualmente limpio
+   - campos: nombre, email, tipo de proyecto, mensaje
+   - datos de contacto visibles
+   - botón a WhatsApp fijo o flotante
+
+11. Footer
+   - nombre
+   - navegación corta
+   - redes / GitHub / LinkedIn
+   - texto simple de cierre
+
+NO INCLUIR:
+- testimonios inventados
+- precios cerrados si no son reales
+- estadísticas falsas
+- frases grandilocuentes
+- proyectos irreales
+
+SI INCLUIR:
+- textos realistas en español
+- tono profesional-cercano
+- contenido creíble
+- diseño premium sin exagerar
+- buena organización visual
+- responsive
+- secciones claras
+
+OUTPUT:
+1) estructura de la landing
+2) propuesta visual por secciones
+3) textos reales en español
+4) componentes reutilizables
+5) sugerencias de iconografía/logos para tecnologías
+6) diseño listo para pasar a Next.js + Tailwind
