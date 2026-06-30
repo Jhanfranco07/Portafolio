@@ -153,7 +153,7 @@ Desde ahi se pueden actualizar:
 - Email: `jhandev07@gmail.com`
 - WhatsApp: `+51 921 561 684`
 - LinkedIn: [Jhan Dev](https://www.linkedin.com/in/jhandev07/)
-- GitHub: [Angie2-CuentaTrabajo](https://github.com/Angie2-CuentaTrabajo)
+- GitHub: [Angie2-CuentaTrabajo](https://github.com/Jhanfranco07)
 
 ## Estado
 
