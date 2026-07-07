@@ -16,6 +16,17 @@ const projectIcons: Record<string, LucideIcon> = {
   'Gestión pública': Landmark
 };
 
+const featuredProjectIds = [3, 6, 7];
+const orderedProjects = [...projects].sort((a, b) => {
+  const aPosition = featuredProjectIds.indexOf(a.id);
+  const bPosition = featuredProjectIds.indexOf(b.id);
+
+  if (aPosition === -1 && bPosition === -1) return 0;
+  if (aPosition === -1) return 1;
+  if (bPosition === -1) return -1;
+  return aPosition - bPosition;
+});
+
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
@@ -34,7 +45,7 @@ export function Projects() {
         />
 
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project, index) => (
+          {orderedProjects.map((project, index) => (
             <ProjectCard key={project.id} project={project} index={index} onOpen={() => setSelectedProject(project)} />
           ))}
         </div>
