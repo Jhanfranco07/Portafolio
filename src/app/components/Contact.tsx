@@ -59,7 +59,7 @@ export function Contact() {
             transition={{ duration: 0.45 }}
             className="rounded-lg border border-slate-200 bg-slate-950 p-6 text-white shadow-xl shadow-slate-200/70 sm:p-8"
           >
-            <h3 className="text-2xl font-black">Jhan Freelance</h3>
+            <h3 className="text-2xl font-black">Jhan Franco</h3>
             <p className="mt-3 leading-7 text-slate-300">
               Disponible para proyectos freelance de desarrollo web, automatización, dashboards, asistentes inteligentes y herramientas internas.
             </p>

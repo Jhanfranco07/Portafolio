@@ -26,7 +26,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3">
               <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-white text-sm font-black text-slate-950">JF</span>
-              <h3 className="text-xl font-black text-white">Jhan Freelance</h3>
+              <h3 className="text-xl font-black text-white">Jhan Franco</h3>
             </div>
             <p className="mt-4 max-w-md leading-7 text-slate-400">
               Desarrollo web, automatización, IA aplicada y herramientas digitales para resolver procesos reales con claridad.
@@ -89,7 +89,7 @@ export function Footer() {
         </div>
 
         <div className="mt-10 border-t border-white/10 pt-6 text-sm text-slate-500">
-          © {currentYear} Jhan Freelance. Hecho para crecer con proyectos reales.
+          © {currentYear} Jhan Franco. Hecho para crecer con proyectos reales.
         </div>
       </div>
     </footer>

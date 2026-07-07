@@ -47,7 +47,7 @@ export function Navbar() {
           <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-slate-950 text-sm font-black text-white shadow-sm">
             JF
           </span>
-          <span className="text-lg font-bold text-slate-950 group-hover:text-blue-700 sm:text-xl">Jhan Freelance</span>
+          <span className="text-lg font-bold text-slate-950 group-hover:text-blue-700 sm:text-xl">Jhan Franco</span>
         </button>
 
         <div className="hidden items-center gap-1 lg:flex">

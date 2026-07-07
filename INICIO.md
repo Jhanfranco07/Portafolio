@@ -1,10 +1,10 @@
-# Jhan Freelance - Presentacion del Portfolio
+# Jhan Franco - Presentacion del Portfolio
 
-Este documento resume de forma informativa el proposito del sitio web de **Jhan Freelance**. No es una guia de instalacion ni un instructivo tecnico: sirve para entender que comunica la landing, que servicios presenta y como esta pensada la experiencia.
+Este documento resume de forma informativa el proposito del sitio web de **Jhan Franco**. No es una guia de instalacion ni un instructivo tecnico: sirve para entender que comunica la landing, que servicios presenta y como esta pensada la experiencia.
 
 ## Vision General
 
-**Jhan Freelance** es una landing page profesional para presentar servicios de desarrollo web, automatizacion, dashboards, asistentes inteligentes y herramientas internas.
+**Jhan Franco** es una landing page profesional para presentar servicios de desarrollo web, automatizacion, dashboards, asistentes inteligentes y herramientas internas.
 
 La comunicacion del sitio prioriza claridad y confianza:
 

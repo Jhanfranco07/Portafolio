@@ -1,6 +1,6 @@
-# Jhan Freelance - Portfolio Web
+# Jhan Franco - Portfolio Web
 
-Landing page profesional para la marca personal **Jhan Freelance**, enfocada en desarrollo web, automatizacion, dashboards, asistentes inteligentes y herramientas internas para negocios, profesionales independientes y sector publico.
+Landing page profesional para la marca personal **Jhan Franco**, enfocada en desarrollo web, automatizacion, dashboards, asistentes inteligentes y herramientas internas para negocios, profesionales independientes y sector publico.
 
 El proyecto presenta servicios de forma clara y honesta: sin metricas inventadas, sin testimonios ficticios y sin promesas exageradas. La prioridad es mostrar que se construye, con que tecnologias y como iniciar una conversacion directa.
 

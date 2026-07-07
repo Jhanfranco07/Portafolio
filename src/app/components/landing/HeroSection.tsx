@@ -96,7 +96,7 @@ export function HeroSection() {
               backgroundImage: 'linear-gradient(223deg, #F7F4EE 0%, #89B7EA 55%, #8B5CF6 112%)'
             }}
           >
-            Jhan Freelance
+            Jhan Franco
           </h1>
 
           <p className="mt-7 max-w-2xl text-balance text-center text-lg leading-8 text-white/78 sm:text-xl">
@@ -137,8 +137,8 @@ function Navbar() {
   return (
     <nav className="flex w-full flex-row items-center justify-between px-5 py-5 sm:px-8">
       <button type="button" onClick={() => scrollToSection('#hero')} className="flex items-center gap-3" aria-label="Ir al inicio">
-        <img src={logo} alt="Jhan Freelance" className="h-8 w-auto" />
-        <span className="hidden text-base font-semibold text-white/90 sm:inline">Jhan Freelance</span>
+        <img src={logo} alt="Jhan Franco" className="h-8 w-auto" />
+        <span className="hidden text-base font-semibold text-white/90 sm:inline">Jhan Franco</span>
       </button>
 
       <div className="hidden items-center gap-7 lg:flex">

@@ -34,7 +34,7 @@ export function Hero() {
             transition={{ duration: 0.55, delay: 0.05 }}
             className="max-w-4xl text-4xl font-black leading-tight text-slate-950 sm:text-5xl lg:text-6xl"
           >
-            Jhan Freelance construye soluciones web, automatización e IA para procesos reales.
+            Jhan Franco construye soluciones web, automatización e IA para procesos reales.
           </motion.h1>
 
           <motion.p
