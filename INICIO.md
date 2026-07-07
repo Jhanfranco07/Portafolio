@@ -80,7 +80,7 @@ La prioridad visual es que el visitante pueda escanear rapido la informacion y e
 - Email: `jhandev07@gmail.com`
 - WhatsApp: `+51 921 561 684`
 - LinkedIn: [Jhan Dev](https://www.linkedin.com/in/jhandev07/)
-- GitHub: [Angie2-CuentaTrabajo](https://github.com/Angie2-CuentaTrabajo)
+- GitHub: [Jhanfranco07](https://github.com/Jhanfranco07)
 
 ## Archivos De Referencia
 

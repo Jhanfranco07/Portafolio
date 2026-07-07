@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import type { ReactNode } from 'react';
 import { useForm } from 'react-hook-form';
-import { CheckCircle2, Github, Linkedin, Loader2, Mail, MapPin, MessageCircle, Send } from 'lucide-react';
+import { CheckCircle2, Github, Linkedin, Loader2, Mail, MapPin, Send } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { motion } from 'motion/react';
 import { contactInfo, projectTypes } from '../data/content';
 import { FormData } from '../data/types';
 import { getWhatsAppUrl, openWhatsApp } from '../utils/whatsapp';
+import { WhatsAppIcon } from './BrandIcons';
 import { SectionHeader } from './SectionHeader';
 
 export function Contact() {
@@ -65,7 +66,7 @@ export function Contact() {
 
             <div className="mt-8 grid gap-4">
               <ContactLink icon={Mail} label="Email" value={contactInfo.email} href={`mailto:${contactInfo.email}`} />
-              <ContactLink icon={MessageCircle} label="WhatsApp" value={contactInfo.whatsapp} href={getWhatsAppUrl()} />
+              <ContactLink icon={WhatsAppIcon} label="WhatsApp" value={contactInfo.whatsapp} href={getWhatsAppUrl()} />
               <ContactLink icon={MapPin} label="Ubicación" value={contactInfo.location} />
             </div>
 

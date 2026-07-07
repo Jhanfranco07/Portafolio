@@ -106,43 +106,47 @@ export const projects: Project[] = [
     category: 'Portfolio web',
     technologies: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript'],
     highlights: ['Arquitectura por secciones', 'CTA a WhatsApp', 'Diseño responsive', 'Copy profesional'],
-    image: '/images/portfolio-web.jpg'
+    image: '/images/portfolio-web.jpg',
+    liveUrl: 'https://jhandev07.vercel.app/'
   },
   {
     id: 2,
-    title: 'Sistema de gestión empresarial tipo SaaS',
+    title: 'Vidriería SAS',
     description:
-      'Panel privado para administrar usuarios, operaciones, registros y reportes desde una sola plataforma.',
+      'Sistema web para digitalizar la gestión de productos, clientes y operaciones comerciales de una vidriería.',
     longDescription:
-      'Aplicación web pensada para equipos que necesitan dejar hojas dispersas y ordenar la gestión diaria. Puede incluir autenticación, roles, módulos operativos, trazabilidad de cambios y paneles para seguimiento.',
+      'Aplicación empresarial que centraliza la información comercial de una vidriería. Permite gestionar productos y servicios, registrar clientes, consultar operaciones y reemplazar procesos manuales por un flujo digital organizado.',
     category: 'SaaS interno',
-    technologies: ['React', 'Node.js', 'PostgreSQL', 'Prisma', 'Tailwind CSS'],
-    highlights: ['Roles de usuario', 'Módulos administrativos', 'Reportes internos', 'Base de datos relacional'],
-    image: '/images/saas-dashboard.jpg'
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'JSON'],
+    highlights: ['Gestión de productos', 'Registro de clientes', 'Control de operaciones', 'Información centralizada'],
+    image: '/images/saas-dashboard.jpg',
+    liveUrl: 'https://vidrieria-five.vercel.app/'
   },
   {
     id: 3,
-    title: 'Chatbot inteligente para atención o consultas',
+    title: 'StudyFlowAI',
     description:
-      'Asistente conectado a una base de conocimiento para responder preguntas frecuentes y ordenar solicitudes.',
+      'Plataforma web para organizar tareas, cursos, exámenes y horarios con apoyo de inteligencia artificial.',
     longDescription:
-      'Solución para negocios o instituciones que reciben consultas repetitivas. El asistente puede trabajar con documentos, respuestas aprobadas y registro de conversaciones para mejorar la atención sin perder control.',
+      'Aplicación fullstack de productividad académica que centraliza tareas, cursos, exámenes, recordatorios y planificación semanal. Incluye seguimiento del progreso, autenticación y un asistente con IA conectado al contexto real del estudiante.',
     category: 'IA aplicada',
-    technologies: ['Python', 'OpenAI API', 'Streamlit', 'PostgreSQL'],
-    highlights: ['Base de conocimiento', 'Flujo de preguntas frecuentes', 'Panel de revisión', 'Escalamiento humano'],
-    image: '/images/ai-assistant.jpg'
+    technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'OpenAI API'],
+    highlights: ['Gestión de tareas y cursos', 'Planificador semanal', 'Asistente académico con IA', 'Autenticación con Google'],
+    image: '/images/ai-assistant.jpg',
+    liveUrl: 'https://study-flow-ai-usil.vercel.app/'
   },
   {
     id: 4,
-    title: 'Dashboard de análisis y reportes',
+    title: 'Puerta Inteligente Emocional',
     description:
-      'Panel con indicadores, filtros y visualizaciones para analizar información operativa o comercial.',
+      'Aplicación que reconoce expresiones faciales y simula una puerta inteligente controlada por emociones.',
     longDescription:
-      'Dashboard diseñado para convertir datos en lecturas rápidas. Puede conectarse a bases de datos, hojas de cálculo o APIs, con filtros por periodo, estado, área o responsable.',
-    category: 'Datos',
-    technologies: ['TypeScript', 'React', 'Recharts', 'SQL', 'PostgreSQL'],
-    highlights: ['KPIs claros', 'Filtros dinámicos', 'Gráficos interactivos', 'Exportación de reportes'],
-    image: '/images/analytics-dashboard.jpg'
+      'Proyecto de visión artificial que usa una CNN para clasificar siete emociones. La puerta simulada se abre al detectar felicidad con suficiente confianza y un modelo de lenguaje genera una respuesta contextual.',
+    category: 'IA aplicada',
+    technologies: ['Python', 'Keras', 'OpenCV', 'Gradio', 'Hugging Face'],
+    highlights: ['Clasificación de emociones', 'Detección facial', 'CNN + LLM', 'Despliegue en Hugging Face'],
+    image: 'https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/Jhannn/emotion-smart-door.png',
+    liveUrl: 'https://huggingface.co/spaces/Jhannn/emotion-smart-door'
   },
   {
     id: 5,
@@ -154,19 +158,21 @@ export const projects: Project[] = [
     category: 'Automatización',
     technologies: ['Python', 'n8n', 'Google Sheets API', 'React'],
     highlights: ['Plantillas editables', 'Datos estructurados', 'Validaciones', 'Historial de documentos'],
-    image: '/images/document-automation.jpg'
+    image: '/images/document-automation.jpg',
+    liveUrl: 'https://portal-de-automatizaciones-beta.vercel.app'
   },
   {
     id: 6,
-    title: 'Sistema web para procesos o trámites',
+    title: 'SmartClaim AI',
     description:
-      'Plataforma para registrar solicitudes, revisar estados, administrar casos y generar trazabilidad.',
+      'Plataforma fullstack para delivery y gestión inteligente de reclamos con clasificación automática e IA.',
     longDescription:
-      'Aplicación web orientada a procesos internos o atención ciudadana. Permite organizar solicitudes, asignar responsables, registrar avances y mantener evidencia del recorrido de cada trámite.',
-    category: 'Gestión pública',
-    technologies: ['Next.js', 'TypeScript', 'Supabase', 'PostgreSQL'],
-    highlights: ['Seguimiento por estado', 'Panel administrativo', 'Historial de acciones', 'Notificaciones'],
-    image: '/images/public-process.jpg'
+      'Sistema con catálogo, carrito, pedidos y atención de reclamos para clientes, agentes y administradores. Integra clasificación automática, recuperación documental RAG, respuestas sugeridas, revisión humana, chat de soporte y reportes.',
+    category: 'IA aplicada',
+    technologies: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'OpenAI API'],
+    highlights: ['Clasificación de reclamos', 'RAG documental', 'Gestión por roles', 'Reportes operativos'],
+    image: '/images/public-process.jpg',
+    liveUrl: 'https://clasificador-de-reclamos.vercel.app'
   }
 ];
 
@@ -236,7 +242,7 @@ export const contactInfo = {
   whatsapp: '+51 921 561 684',
   whatsappMessage: 'Hola Jhan, me gustaria conversar sobre un proyecto digital.',
   location: 'Perú / remoto',
-  github: 'https://github.com/Angie2-CuentaTrabajo',
+  github: 'https://github.com/Jhanfranco07',
   linkedin: 'https://www.linkedin.com/in/jhandev07/'
 };
 

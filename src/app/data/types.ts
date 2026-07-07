@@ -7,6 +7,7 @@ export interface Project {
   technologies: string[];
   highlights: string[];
   image?: string;
+  liveUrl?: string;
 }
 
 export interface Service {
