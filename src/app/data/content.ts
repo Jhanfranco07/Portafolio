@@ -97,19 +97,6 @@ export const technologies: TechCategory[] = [
 
 export const projects: Project[] = [
   {
-    id: 1,
-    title: 'Portafolio profesional freelancer',
-    description:
-      'Landing portfolio para presentar servicios, stack, proyectos y canales de contacto de forma clara.',
-    longDescription:
-      'Sitio de marca personal orientado a confianza y contacto directo. La estructura prioriza mensajes concretos, secciones breves, tecnología visible y una experiencia responsive preparada para crecer con nuevos casos reales.',
-    category: 'Portfolio web',
-    technologies: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript'],
-    highlights: ['Arquitectura por secciones', 'CTA a WhatsApp', 'Diseño responsive', 'Copy profesional'],
-    image: '/images/portfolio-web.jpg',
-    liveUrl: 'https://jhandev07.vercel.app/'
-  },
-  {
     id: 2,
     title: 'Vidriería SAS',
     description:
