@@ -156,7 +156,7 @@ export const projects: Project[] = [
     category: 'IA aplicada',
     technologies: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'OpenAI API'],
     highlights: ['Clasificación de reclamos', 'RAG documental', 'Gestión por roles', 'Reportes operativos'],
-    image: '/images/public-process.jpg',
+    image: '/images/smartclaim-ai.png',
     liveUrl: 'https://clasificador-de-reclamos.vercel.app'
   },
   {
