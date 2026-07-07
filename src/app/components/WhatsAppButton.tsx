@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import type { MouseEvent } from 'react';
-import { MessageCircle, X } from 'lucide-react';
+import { X } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
 import { openWhatsApp } from '../utils/whatsapp';
+import { WhatsAppIcon } from './BrandIcons';
 
 export function WhatsAppButton() {
   const [showHint, setShowHint] = useState(false);
@@ -33,7 +34,7 @@ export function WhatsAppButton() {
         className="fixed bottom-5 right-5 z-40 flex h-14 w-14 items-center justify-center rounded-lg bg-emerald-500 text-white shadow-xl shadow-emerald-900/20 transition hover:bg-emerald-600 sm:bottom-6 sm:right-6"
         aria-label="Contactar por WhatsApp"
       >
-        <MessageCircle className="h-7 w-7" />
+        <WhatsAppIcon className="h-7 w-7" />
       </motion.button>
 
       <AnimatePresence>

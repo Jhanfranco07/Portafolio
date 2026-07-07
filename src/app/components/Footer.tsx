@@ -1,6 +1,7 @@
-import { Github, Linkedin, Mail, MessageCircle } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import { contactInfo } from '../data/content';
 import { openWhatsApp } from '../utils/whatsapp';
+import { WhatsAppIcon } from './BrandIcons';
 
 const footerLinks = [
   { name: 'Inicio', href: '#hero' },
@@ -80,7 +81,7 @@ export function Footer() {
                 onClick={() => openWhatsApp()}
                 className="inline-flex w-fit items-center gap-2 text-sm font-semibold text-slate-400 transition hover:text-white"
               >
-                <MessageCircle className="h-4 w-4 text-emerald-300" />
+                <WhatsAppIcon className="h-4 w-4 text-emerald-300" />
                 WhatsApp
               </button>
             </div>
