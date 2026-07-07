@@ -100,7 +100,7 @@ export function Contact() {
             onSubmit={handleSubmit(onSubmit)}
             className="rounded-lg border border-white/80 bg-white/85 p-6 shadow-xl shadow-blue-100/60 backdrop-blur sm:p-8"
           >
-            <div className="grid gap-5 sm:grid-cols-2">
+            <div className="grid gap-5 sm:grid-cols-2 [&>div]:mt-0">
               <Field id="name" label="Nombre" error={errors.name?.message}>
                 <input
                   id="name"
@@ -201,7 +201,7 @@ export function Contact() {
 
 function Field({ id, label, error, children }: { id: string; label: string; error?: string; children: ReactNode }) {
   return (
-    <div className="mt-5 first:mt-0">
+    <div className="mt-5">
       <label htmlFor={id} className="mb-2 block text-sm font-bold text-slate-800">
         {label}
       </label>
