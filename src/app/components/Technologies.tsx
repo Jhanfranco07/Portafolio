@@ -12,7 +12,7 @@ export function Technologies() {
         <SectionHeader
           eyebrow="Tecnologías"
           title="Un stack práctico para crear interfaces, automatizaciones, datos y despliegues."
-          description="Agrupado por uso real: lenguajes base, frameworks para producto y plataformas para trabajar con diseño, datos, integraciones y publicación."
+          description="Agrupado por uso real: tecnologías base, frameworks, librerías, runtimes y plataformas para diseño, datos, integraciones y publicación."
         />
 
         <div className="grid gap-6 lg:grid-cols-3">
@@ -26,7 +26,7 @@ export function Technologies() {
               whileHover={{ y: -4 }}
               className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm shadow-blue-100/50 backdrop-blur transition-colors duration-300 hover:border-blue-200"
             >
-              <div className="mb-5">
+              <div className="mb-5 lg:min-h-[124px]">
                 <h3 className="text-xl font-black text-slate-950">{category.category}</h3>
                 <p className="mt-2 text-sm leading-6 text-slate-600">{category.description}</p>
               </div>

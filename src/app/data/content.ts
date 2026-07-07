@@ -53,8 +53,8 @@ export const services: Service[] = [
 
 export const technologies: TechCategory[] = [
   {
-    category: 'Lenguajes',
-    description: 'Base para construir interfaces, automatizaciones, APIs y modelos de datos.',
+    category: 'Lenguajes y tecnologías base',
+    description: 'Lenguajes de programación, marcado, estilos y consulta para construir productos digitales.',
     items: [
       { name: 'Python', icon: 'python' },
       { name: 'TypeScript', icon: 'typescript' },
@@ -65,8 +65,8 @@ export const technologies: TechCategory[] = [
     ]
   },
   {
-    category: 'Frameworks / librerías',
-    description: 'Herramientas para crear productos web modernos, mantenibles y escalables.',
+    category: 'Frameworks, librerías y runtimes',
+    description: 'Ecosistema de desarrollo para crear productos web modernos, mantenibles y escalables.',
     items: [
       { name: 'Next.js', icon: 'nextjs' },
       { name: 'React', icon: 'react' },
@@ -78,7 +78,7 @@ export const technologies: TechCategory[] = [
     ]
   },
   {
-    category: 'Herramientas / plataformas',
+    category: 'Herramientas y plataformas',
     description: 'Servicios de diseño, despliegue, bases de datos, pruebas e integración.',
     items: [
       { name: 'Figma', icon: 'figma' },
