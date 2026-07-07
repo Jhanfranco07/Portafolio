@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import logo from '@/assets/logo.png';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import { openWhatsApp } from '../../utils/whatsapp';
+import { TechLogo } from '../TechLogo';
 import { Button } from '../ui/button';
 
 const videoUrl =
@@ -162,21 +163,47 @@ function Navbar() {
 }
 
 function TechBar() {
+  const carouselItems = [...stackItems, ...stackItems];
+
   return (
     <div className="mx-auto mb-14 w-full max-w-5xl px-4">
-      <div className="liquid-glass flex flex-col gap-4 rounded-lg px-5 py-4 md:flex-row md:items-center md:justify-between">
-        <p className="shrink-0 text-sm font-semibold leading-6 text-white/58">
+      <div className="liquid-glass rounded-xl px-5 py-4">
+        <p className="mb-3 text-sm font-semibold leading-6 text-white/58">
           Stack principal
         </p>
-        <div className="flex flex-wrap items-center gap-2.5">
-          {stackItems.map((item) => (
-            <span key={item} className="inline-flex items-center gap-2 rounded-full bg-white/8 px-3 py-2 text-sm font-bold text-white/86 ring-1 ring-white/10">
-              <span className="h-1.5 w-1.5 rounded-full bg-blue-300" />
-              {item}
-            </span>
-          ))}
+
+        <div className="tech-carousel relative overflow-hidden py-2 [perspective:900px] [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]">
+          <div className="tech-carousel-track flex w-max gap-3 [transform-style:preserve-3d]">
+            {carouselItems.map((item, index) => (
+              <div
+                key={`${item}-${index}`}
+                aria-hidden={index >= stackItems.length}
+                className="group flex min-w-[150px] items-center gap-3 rounded-xl border border-white/15 bg-white/10 px-3 py-3 shadow-[0_14px_30px_rgba(0,0,0,0.28)] backdrop-blur-md transition duration-300 [transform:rotateX(7deg)_translateZ(0)] hover:border-blue-300/50 hover:bg-white/15 hover:shadow-[0_18px_38px_rgba(96,165,250,0.22)] hover:[transform:rotateX(0deg)_translateZ(24px)_scale(1.04)]"
+              >
+                <TechLogo name={item} className="shrink-0 [&>span]:h-10 [&>span]:w-10 [&_svg]:h-7 [&_svg]:w-7" />
+                <span className="whitespace-nowrap text-sm font-bold text-white/90">{item}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
+
+      <style>{`
+        @keyframes tech-carousel-scroll {
+          from { transform: translate3d(0, 0, 0); }
+          to { transform: translate3d(calc(-50% - 6px), 0, 0); }
+        }
+        .tech-carousel-track {
+          animation: tech-carousel-scroll 26s linear infinite;
+          will-change: transform;
+        }
+        .tech-carousel:hover .tech-carousel-track {
+          animation-play-state: paused;
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .tech-carousel-track { animation: none; }
+        }
+      `}</style>
     </div>
   );
 }
