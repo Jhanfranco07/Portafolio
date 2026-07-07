@@ -98,16 +98,15 @@ export const technologies: TechCategory[] = [
 export const projects: Project[] = [
   {
     id: 2,
-    title: 'Vidriería SAS',
+    title: 'Sistema de gestión empresarial tipo SaaS',
     description:
-      'Sistema web para digitalizar la gestión de productos, clientes y operaciones comerciales de una vidriería.',
+      'Panel privado para administrar usuarios, operaciones, registros y reportes desde una sola plataforma.',
     longDescription:
-      'Aplicación empresarial que centraliza la información comercial de una vidriería. Permite gestionar productos y servicios, registrar clientes, consultar operaciones y reemplazar procesos manuales por un flujo digital organizado.',
+      'Aplicación web pensada para equipos que necesitan dejar hojas dispersas y ordenar la gestión diaria. Puede incluir autenticación, roles, módulos operativos, trazabilidad de cambios y paneles para seguimiento.',
     category: 'SaaS interno',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'JSON'],
-    highlights: ['Gestión de productos', 'Registro de clientes', 'Control de operaciones', 'Información centralizada'],
-    image: '/images/saas-dashboard.jpg',
-    liveUrl: 'https://vidrieria-five.vercel.app/'
+    technologies: ['React', 'Node.js', 'PostgreSQL', 'Prisma', 'Tailwind CSS'],
+    highlights: ['Roles de usuario', 'Módulos administrativos', 'Reportes internos', 'Base de datos relacional'],
+    image: '/images/saas-dashboard.jpg'
   },
   {
     id: 3,
@@ -145,8 +144,7 @@ export const projects: Project[] = [
     category: 'Automatización',
     technologies: ['Python', 'n8n', 'Google Sheets API', 'React'],
     highlights: ['Plantillas editables', 'Datos estructurados', 'Validaciones', 'Historial de documentos'],
-    image: '/images/document-automation.jpg',
-    liveUrl: 'https://portal-de-automatizaciones-beta.vercel.app'
+    image: '/images/document-automation.jpg'
   },
   {
     id: 6,
