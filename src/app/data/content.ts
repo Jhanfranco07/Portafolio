@@ -158,6 +158,19 @@ export const projects: Project[] = [
     highlights: ['Clasificación de reclamos', 'RAG documental', 'Gestión por roles', 'Reportes operativos'],
     image: '/images/public-process.jpg',
     liveUrl: 'https://clasificador-de-reclamos.vercel.app'
+  },
+  {
+    id: 7,
+    title: 'ZonaOscura',
+    description:
+      'Plataforma para reportar, visualizar y gestionar zonas con deficiente iluminación pública.',
+    longDescription:
+      'Aplicación responsive para que ciudadanos y juntas vecinales registren calles oscuras, adjunten evidencia y consulten puntos de riesgo. Incluye un panel municipal para priorizar reportes, revisar zonas atendidas y generar informes operativos.',
+    category: 'Gestión pública',
+    technologies: ['Next.js', 'React', 'Tailwind CSS', 'Prisma', 'PostgreSQL'],
+    highlights: ['Reportes ciudadanos', 'Mapa de zonas oscuras', 'Panel municipal', 'Informes operativos'],
+    image: 'https://raw.githubusercontent.com/Jhanfranco07/ZonaOscura/main/legacy-maquetas/mapa_de_zonas_oscuras/screen.png',
+    liveUrl: 'https://zona-oscura-usil.vercel.app'
   }
 ];
 
