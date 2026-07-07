@@ -75,18 +75,18 @@ export function Contact() {
                 href={contactInfo.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg border border-white/15 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-white/10"
+                className="inline-flex items-center gap-2 rounded-lg border border-blue-400/30 bg-blue-500/10 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-blue-500/20"
               >
-                <Linkedin className="h-4 w-4" />
+                <Linkedin className="h-4 w-4 text-[#0A66C2]" />
                 LinkedIn
               </a>
               <a
                 href={contactInfo.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg border border-white/15 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-white/10"
+                className="inline-flex items-center gap-2 rounded-lg border border-violet-400/30 bg-violet-500/10 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-violet-500/20"
               >
-                <Github className="h-4 w-4" />
+                <Github className="h-4 w-4 text-violet-300" />
                 GitHub
               </a>
             </div>
@@ -228,10 +228,17 @@ function ContactLink({
   value: string;
   href?: string;
 }) {
+  const iconStyle =
+    label === 'Email'
+      ? 'bg-red-500/15 text-red-400'
+      : label === 'WhatsApp'
+        ? 'bg-emerald-500/15 text-emerald-400'
+        : 'bg-sky-500/15 text-sky-400';
+
   const content = (
     <div className="flex items-start gap-3 rounded-lg border border-white/10 bg-white/5 p-4">
-      <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-white/10">
-        <Icon className="h-5 w-5 text-blue-200" />
+      <span className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg ${iconStyle}`}>
+        <Icon className="h-5 w-5" />
       </span>
       <div>
         <p className="text-sm font-bold text-slate-400">{label}</p>
