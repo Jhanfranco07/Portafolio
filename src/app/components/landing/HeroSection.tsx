@@ -167,7 +167,7 @@ function TechBar() {
 
   return (
     <div className="mx-auto mb-14 w-full max-w-5xl px-4">
-      <div className="liquid-glass rounded-xl px-5 py-4">
+      <div className="px-5 py-4">
         <p className="mb-3 text-sm font-semibold leading-6 text-white/58">
           Stack principal
         </p>
@@ -178,7 +178,7 @@ function TechBar() {
               <div
                 key={`${item}-${index}`}
                 aria-hidden={index >= stackItems.length}
-                className="group flex min-w-[150px] items-center gap-3 rounded-xl border border-white/15 bg-white/10 px-3 py-3 shadow-[0_14px_30px_rgba(0,0,0,0.28)] backdrop-blur-md transition duration-300 [transform:rotateX(7deg)_translateZ(0)] hover:border-blue-300/50 hover:bg-white/15 hover:shadow-[0_18px_38px_rgba(96,165,250,0.22)] hover:[transform:rotateX(0deg)_translateZ(24px)_scale(1.04)]"
+                className="group flex min-w-[150px] items-center gap-3 px-3 py-3 drop-shadow-[0_12px_16px_rgba(0,0,0,0.55)] transition duration-300 [transform:rotateX(7deg)_translateZ(0)] hover:drop-shadow-[0_18px_24px_rgba(96,165,250,0.35)] hover:[transform:rotateX(0deg)_translateZ(28px)_scale(1.06)]"
               >
                 <TechLogo name={item} className="shrink-0 [&>span]:h-10 [&>span]:w-10 [&_svg]:h-7 [&_svg]:w-7" />
                 <span className="whitespace-nowrap text-sm font-bold text-white/90">{item}</span>
