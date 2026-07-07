@@ -118,7 +118,7 @@ export const projects: Project[] = [
     category: 'IA aplicada',
     technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'OpenAI API'],
     highlights: ['Gestión de tareas y cursos', 'Planificador semanal', 'Asistente académico con IA', 'Autenticación con Google'],
-    image: '/images/ai-assistant.jpg',
+    image: '/images/studyflow-ai.png',
     liveUrl: 'https://study-flow-ai-usil.vercel.app/'
   },
   {
